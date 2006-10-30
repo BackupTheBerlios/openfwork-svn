@@ -1,0 +1,7 @@
+# table;column;description;type;size;nullable;reftable;refcolumn
+document;id;Идентификатор;integer;4;notnull;;
+document;name;Наименование;string;200;null;;
+document;orgid;Организация;integer;4;notnull;org;id;name
+
+org;id;Идентификатор;integer;4;notnull;;
+org;name;Наименование;string;200;null;;

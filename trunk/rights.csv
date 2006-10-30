@@ -1,0 +1,4 @@
+admin;r;document;id
+admin;w;document;name
+users;r;document;id
+users;w;document;name
